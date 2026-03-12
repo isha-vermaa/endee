@@ -1,10 +1,11 @@
 # Semantic Movie Search using Endee Vector Database
 
 ## Project Overview
-This project demonstrates semantic search using vector embeddings.
+This project demonstrates a semantic movie recommendation system using vector embeddings and similarity search.  
+Movie descriptions are converted into embeddings and relevant movies are retrieved based on semantic similarity.
 
-Traditional keyword search cannot understand meaning.  
-Vector databases like Endee allow searching based on semantic similarity.
+The project showcases how **vector databases like Endee** enable AI applications such as semantic search, recommendation systems, and Retrieval Augmented Generation (RAG).
+
 
 ## Problem Statement
 Users often struggle to find relevant content using traditional keyword search.
@@ -56,3 +57,22 @@ This enables AI applications such as:
 - AI knowledge assistants
 
 Endee provides high-performance vector indexing and retrieval, making it suitable for large-scale AI applications.
+
+
+## Setup Instructions
+
+Clone the repository:
+
+git clone https://github.com/isha-vermaa/endee
+
+Navigate to project folder:
+
+cd semantic-movie-search
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the application:
+
+python app.py
