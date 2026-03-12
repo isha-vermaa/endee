@@ -24,3 +24,35 @@ Results:
 Interstellar  
 The Martian  
 Gravity
+
+
+## System Design
+
+User Query  
+↓  
+Convert query into vector embedding using Sentence Transformers  
+↓  
+Store movie embeddings in vector database (Endee)  
+↓  
+Perform semantic similarity search  
+↓  
+Retrieve most relevant movie descriptions  
+
+---
+
+## How Endee Vector Database is Used
+
+This project demonstrates the concept of semantic search using vector embeddings.  
+Movie descriptions from the TMDB dataset are converted into vector embeddings using the Sentence Transformers model.
+
+These embeddings can be efficiently stored and searched using a vector database such as **Endee**.  
+Vector databases allow similarity search by comparing embeddings rather than relying on keyword matching.
+
+This enables AI applications such as:
+
+- Semantic search
+- Recommendation systems
+- Retrieval Augmented Generation (RAG)
+- AI knowledge assistants
+
+Endee provides high-performance vector indexing and retrieval, making it suitable for large-scale AI applications.
